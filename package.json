@@ -1,0 +1,42 @@
+{
+  "name": "dvy",
+  "version": "1.0.0",
+  "description": "A decentralised video library platform, built on IPFS.",
+  "main": "out/index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "run": "electron out/index.js",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "build": "npm run lint && npm run tsc",
+    "start": "npm run build && npm run run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leahlundqvist/dvy.git"
+  },
+  "keywords": [
+    "ipfs"
+  ],
+  "author": "Leah Lundqvist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leahlundqvist/dvy/issues"
+  },
+  "homepage": "https://github.com/leahlundqvist/dvy#readme",
+  "dependencies": {
+    "electron": "^19.0.1",
+    "module-alias": "^2.2.2",
+    "ololog": "^1.1.175"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.36",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard-with-typescript": "^21.0.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "typescript": "^4.7.2"
+  }
+}
