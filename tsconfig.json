@@ -5,7 +5,14 @@
     "outDir": "./out",
     "rootDir": "./src",
     "baseUrl": "./src",
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
     "moduleResolution": "node",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "paths": {
         "~/*": ["./*"]
     },
