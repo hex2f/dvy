@@ -8,14 +8,12 @@
     "jsx": "react-jsx",
     "jsxImportSource": "react",
     "moduleResolution": "node",
+    "resolveJsonModule": true,
     "lib": [
       "dom",
       "dom.iterable",
       "esnext"
     ],
-    "paths": {
-        "~/*": ["./*"]
-    },
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
